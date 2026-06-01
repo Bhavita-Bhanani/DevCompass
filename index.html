@@ -1,121 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
     <title>DevCompass</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
 </head>
+
 <body>
 
-<nav>
-    <div class="logo">DevCompass</div>
+    <!-- NAVBAR -->
 
-    <ul>
-        <li><a href="#learn">Learn</a></li>
-        <li><a href="#roadmaps">Roadmaps</a></li>
-        <li><a href="#practice">Practice</a></li>
-        <li><a href="#jobs">Jobs</a></li>
-    </ul>
-</nav>
+    <nav>
+<div class="logo">
+    DevCompass
+</div>
 
-<section class="hero">
+        <ul>
 
-    <h1>Navigate Your Developer Journey</h1>
+            <li><a href="#learn">Learn</a></li>
 
-    <p>
-        One place for learning resources,
-        roadmaps, coding practice, internships,
-        and career growth.
-    </p>
+            <li><a href="#roadmaps">Roadmaps</a></li>
 
-    <a href="#learn" class="btn">
-        Explore Resources
-    </a>
+            <li><a href="#practice">Practice</a></li>
 
-</section>
+            <li><a href="#jobs">Jobs</a></li>
 
-<section id="learn">
+        </ul>
 
-    <h2>Learning Platforms</h2>
+    </nav>
 
-    <div class="grid">
+    <!-- HERO -->
 
-        <div class="card">
-            <h3>freeCodeCamp</h3>
-            <p>Learn web development for free.</p>
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Navigate Your Developer Journey
+            </h1>
+
+            <p>
+
+                Discover learning platforms,
+                roadmaps, coding resources,
+                internships and tools
+                all in one place.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#learn"
+                    class="btn-primary">
+
+                    Explore Resources
+
+                </a>
+
+                <a href="#roadmaps"
+                    class="btn-secondary">
+
+                    View Roadmaps
+
+                </a>
+
+            </div>
+
         </div>
 
-        <div class="card">
-            <h3>CS50</h3>
-            <p>Harvard's famous computer science course.</p>
+    </section>
+
+    <!-- STATS -->
+
+    <section class="stats">
+
+        <div class="stat">
+
+            <h2>50+</h2>
+
+            <p>Resources</p>
+
         </div>
 
-        <div class="card">
-            <h3>MDN Docs</h3>
-            <p>Best documentation for web technologies.</p>
+        <div class="stat">
+
+            <h2>10+</h2>
+
+            <p>Career Paths</p>
+
         </div>
 
-    </div>
+        <div class="stat">
 
-</section>
+            <h2>20+</h2>
 
-<section id="roadmaps">
+            <p>Platforms</p>
 
-    <h2>Developer Roadmaps</h2>
+        </div>
 
-    <div class="grid">
+        <div class="stat">
 
-        <div class="card">Frontend</div>
-        <div class="card">Backend</div>
-        <div class="card">Python</div>
-        <div class="card">AI / ML</div>
-        <div class="card">Cybersecurity</div>
-        <div class="card">Cloud</div>
+            <h2>100%</h2>
 
-    </div>
+            <p>Free</p>
 
-</section>
+        </div>
 
-<section id="practice">
+    </section>
 
-    <h2>Coding Practice</h2>
+    <!-- LEARNING -->
 
-    <div class="grid">
+    <section id="learn">
 
-        <div class="card">LeetCode</div>
-        <div class="card">HackerRank</div>
-        <div class="card">Codeforces</div>
-        <div class="card">CodeChef</div>
+        <h2 class="section-title">
 
-    </div>
+            Learning Platforms
 
-</section>
+        </h2>
 
-<section id="jobs">
+        <div class="grid">
 
-    <h2>Internships & Jobs</h2>
+            <a class="card"
+                href="https://cs50.harvard.edu/"
+                target="_blank">
 
-    <div class="grid">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/7/70/Harvard_University_logo.svg">
 
-        <div class="card">LinkedIn Jobs</div>
-        <div class="card">Internshala</div>
-        <div class="card">Wellfound</div>
-        <div class="card">Indeed</div>
+                <h3>CS50</h3>
 
-    </div>
+                <p>
+                    Harvard's legendary
+                    computer science course.
+                </p>
 
-</section>
+            </a>
 
-<footer>
+            <a class="card"
+                href="https://www.freecodecamp.org/"
+                target="_blank">
 
-    <h3>DevCompass</h3>
+                <img
+                    src="https://cdn.simpleicons.org/freecodecamp/0A0A0A">
 
-    <p>
-        Helping students navigate the developer journey.
-    </p>
+                <h3>freeCodeCamp</h3>
 
-</footer>
+                <p>
+                    Learn web development
+                    completely free.
+                </p>
+
+            </a>
+
+            <a class="card"
+                href="https://developer.mozilla.org/"
+                target="_blank">
+
+                <img
+                    src="https://cdn.simpleicons.org/mdnwebdocs/000000">
+
+                <h3>MDN Docs</h3>
+
+                <p>
+                    The most trusted web
+                    documentation.
+                </p>
+
+            </a>
+
+            <a class="card"
+                href="https://www.w3schools.com/"
+                target="_blank">
+
+                <img
+                    src="https://cdn.simpleicons.org/w3schools/04AA6D">
+
+                <h3>W3Schools</h3>
+
+                <p>
+                    Beginner-friendly tutorials.
+                </p>
+
+            </a>
+
+            <a class="card"
+                href="https://www.geeksforgeeks.org/"
+                target="_blank">
+
+                <img
+                    src="https://cdn.simpleicons.org/geeksforgeeks/2F8D46">
+
+                <h3>GeeksforGeeks</h3>
+
+                <p>
+                    DSA, interview prep and more.
+                </p>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ROADMAPS -->
+
+    <section id="roadmaps">
+
+        <h2 class="section-title">
+
+            Developer Roadmaps
+
+        </h2>
+
+        <div class="grid">
+
+            <div class="card">Frontend Developer</div>
+
+            <div class="card">Backend Developer</div>
+
+            <div class="card">Python Developer</div>
+
+            <div class="card">AI / ML Engineer</div>
+
+            <div class="card">Cybersecurity</div>
+
+            <div class="card">Cloud Engineer</div>
+
+        </div>
+
+    </section>
+
+    <!-- PRACTICE -->
+
+    <section id="practice">
+
+        <h2 class="section-title">
+
+            Coding Practice
+
+        </h2>
+
+        <div class="grid">
+
+            <a class="card"
+                href="https://leetcode.com"
+                target="_blank">
+
+                <img
+                    src="https://cdn.simpleicons.org/leetcode/FFA116">
+
+                <h3>LeetCode</h3>
+
+            </a>
+
+            <a class="card"
+                href="https://hackerrank.com"
+                target="_blank">
+
+                <img
+                    src="https://cdn.simpleicons.org/hackerrank/00EA64">
+
+                <h3>HackerRank</h3>
+
+            </a>
+
+            <a class="card"
+                href="https://codeforces.com"
+                target="_blank">
+
+                <img
+                    src="https://cdn.simpleicons.org/codeforces/1F8ACB">
+
+                <h3>Codeforces</h3>
+
+            </a>
+
+            <a class="card"
+                href="https://codechef.com"
+                target="_blank">
+
+                <img
+                    src="https://cdn.simpleicons.org/codechef/5B4638">
+
+                <h3>CodeChef</h3>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- JOBS -->
+
+    <section id="jobs">
+
+        <h2 class="section-title">
+
+            Jobs & Internships
+
+        </h2>
+
+        <div class="grid">
+
+            <a class="card"
+                href="https://www.linkedin.com/jobs"
+                target="_blank">
+
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png">
+
+                <h3>LinkedIn Jobs</h3>
+
+            </a>
+
+            <a class="card"
+                href="https://internshala.com"
+                target="_blank">
+
+                <img
+                    src="https://cdn.simpleicons.org/googleforms/16A34A">
+
+                <h3>Internshala</h3>
+
+            </a>
+
+            <a class="card"
+                href="https://wellfound.com"
+                target="_blank">
+
+                <img
+                    src="https://cdn.simpleicons.org/wellfound">
+
+                <h3>Wellfound</h3>
+
+            </a>
+
+            <a class="card"
+                href="https://indeed.com"
+                target="_blank">
+
+                <img
+                    src="https://cdn.simpleicons.org/indeed/003A9B">
+
+                <h3>Indeed</h3>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>DevCompass</h3>
+
+        <p>
+
+            Helping students discover
+            the right path in tech.
+
+        </p>
+
+        <p>
+
+            Built with HTML & CSS
+
+        </p>
+
+    </footer>
 
 </body>
+
 </html>
